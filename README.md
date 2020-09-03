@@ -1,5 +1,14 @@
 # Custom GitHub Repository Search
 
+A little demo site, to run it please insert your own GitHub Authentication data for:
+
+```js
+const userlogin = "YOUR-LOGIN"
+const authcode = "YOUR-TOKEN"
+```
+
+in the [GitHubSearch.js](./src/GitHubSearch.js) file of the `src` directory.
+
 This application provides a custom search for repositories on GitHub.
 Is was built using [React](https://reactjs.org/) and the GitHub GraphQL API.
 Since the GitHub API requires authentication it contains the authentication data (login+token) of an example account created for this application.
